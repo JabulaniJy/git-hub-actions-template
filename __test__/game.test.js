@@ -3,7 +3,7 @@ const Game = require('../src/game').default
 describe('Game', () => {
   let game, p1, p2
   beforeEach(() => {
-    p1 = 'Salem'
+    p1 = 'Salema'
     p2 = 'Nate'
     game = new Game(p1, p2)
   })
